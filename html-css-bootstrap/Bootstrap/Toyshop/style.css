@@ -1,0 +1,81 @@
+:root{
+    --info-color: #0dcaf0;
+    --gray-color: #dea60d;
+}
+.customavlink{
+    background-color: white;
+    border : 0 ;
+}
+.customavlink:hover{
+    color: var(--info-color);
+    
+}
+.customeInfoBTN{
+    background-color: var(--info-color) !important;
+    border: 0 !important;
+}
+.customeInfoBTN:hover{
+    background-color: red !important;
+}
+.iconsNavbar{
+font-size:18px;
+}
+.customNotifyCount{
+  font-size: 10px !important; 
+}
+.customImgCoro{
+     height: 700px;
+     
+}
+.customForCustome{
+
+}
+.boxDetails{
+    display: flex;
+}
+.customcareicon i{
+font-size: 22px;
+padding-right:36px
+}
+.customCareContent{
+    font-size: 14px;
+    color: var(--gray-color);
+}
+.customTwoImgSection{
+
+}
+.Airoplane{
+    background-color: red;
+    display: flex;
+}
+.annimationForText{}
+.annimationForImg{}
+.annimationForImg img{
+   mix-blend-mode: multiply;
+   width: 200px;
+   height: 200px;
+}
+.Animal{
+    background-color: #0dcaf0;
+    display: flex;
+    overflow: hidden;
+
+}
+.annimationForText h3{
+    width: 50%;
+    font-size: 40px;
+    font-weight: 600;
+}
+.annimationForText{
+    transition: transform 2s;
+    padding: 30px 15px;
+}
+.Airoplane  img, .Animal img{
+        transition: transform 2s;
+}
+.Airoplane:hover img , .Animal:hover img{
+    transform: scale(1.5,1.5);
+}
+.Airoplane:hover .annimationForText, .Animal:hover .annimationForText{
+transform: translateY(-5px);
+}
